@@ -52,9 +52,6 @@ public class ApiControllers {
 		return null;
 	}
 	
-	// Return position of an element that agrees condition on the list
-	// used to return position of WeatherHistory on the database that has the current date on which is the actual temperature
-	
 	private static String downloadYandexHTML() {
 		
 		 String urlToRead = "https://yandex.ru";
